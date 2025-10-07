@@ -1,0 +1,48 @@
+Here are two example job posting texts: one fraudulent and one non-fraudulent.
+
+### 1. **Fraudulent Job Posting Example:**
+
+**Job Title**: "Work from Home – No Experience Needed!"
+
+**Description**:
+"We are a fast-growing company looking for a hardworking individual who is willing to work from home. You can start earning today! No experience required. Earn thousands of dollars per week by simply participating in online surveys and social media posts. Apply now to secure your spot! 💰"
+
+**Company Profile**: "We are a startup company looking for quick hires."
+
+**Salary Range**: "Earn up to \$5000/week"
+
+**Benefits**: "Work from anywhere, flexible hours"
+
+**Additional Notes**:
+
+* Vague company profile
+* No company logo
+* Unrealistic salary claims
+* No specific job role or responsibilities
+
+---
+
+### 2. **Non-Fraudulent Job Posting Example:**
+
+**Job Title**: "Software Developer – Full-time Position"
+
+**Description**:
+"Join our established tech company as a Software Developer. We are looking for an experienced developer to work on our innovative products. As part of our development team, you will be responsible for designing, coding, and maintaining software applications. Ideal candidates should have experience with Python, JavaScript, and cloud technologies."
+
+**Company Profile**: "XYZ Tech Solutions has been in the industry for over 10 years, delivering top-quality software solutions to clients worldwide."
+
+**Salary Range**: "\$60,000 - \$80,000 per year"
+
+**Benefits**: "Health insurance, 401(k), paid time off, remote work options"
+
+**Additional Notes**:
+
+* Clear job role and responsibilities
+* Established company profile
+* Realistic salary and benefits
+* Company logo included
+
+---
+
+The **fraudulent** posting features vague details, unrealistic salary claims, and a lack of credible company information, while the **non-fraudulent** posting provides clear job details, realistic compensation, and company legitimacy.
+

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Posting Fraud Detector</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            padding: 20px;
+            background-color: #fce4ec; /* Light pink background */
+        }
+        h1 {
+            color: #ff69b4; /* Hot pink */
+            font-size: 36px;
+            font-weight: bold;
+        }
+        .result {
+            margin-top: 20px;
+            font-size: 18px;
+            font-weight: bold;
+            color: #ff1493; /* Deep pink for fraud result */
+        }
+        .form-container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+        }
+        input[type="text"], textarea {
+            width: 100%;
+            padding: 15px;
+            margin-top: 10px;
+            border-radius: 10px;
+            border: 1px solid #ff69b4; /* Hot pink border */
+            font-size: 16px;
+            box-sizing: border-box;
+            min-height: 100px;
+            background-color: #fff0f6; /* Light pink background */
+            color: #ff1493; /* Deep pink text */
+        }
+        button {
+            padding: 12px 25px;
+            margin-top: 20px;
+            background-color: #ff69b4; /* Hot pink */
+            color: white;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
+        button:hover {
+            background-color: #ff1493; /* Deep pink on hover */
+        }
+        label {
+            font-size: 18px;
+            font-weight: bold;
+            color: #ff1493; /* Deep pink text */
+            display: block;
+        }
+        .instructions {
+            font-size: 14px;
+            color: #ff1493;
+            margin-top: 10px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Job Posting Fraud Detection</h1>
+    <div class="form-container">
+        <form method="POST">
+            <label for="job_posting">Enter Job Posting Description:</label>
+            <textarea id="job_posting" name="job_posting" required placeholder="Paste the job posting text here..." rows="8"></textarea><br><br>
+            <button type="submit">Check for Fraud</button>
+        </form>
+
+        {% if prediction %}
+        <div class="result">
+            <p>{{ prediction }}</p>
+        </div>
+        {% endif %}
+    </div>
+
+</body>
+</html>
